@@ -23,4 +23,16 @@ class TestStatisticsService(unittest.TestCase):
         result = self.stats.search('Ovechkin')
         self.assertEqual(result.name, 'Ovechkin')
 
-    
+    def test_searchnone(self):
+        result = self.stats.search('SpiderMan')
+        self.assertEqual(result, None)
+
+    def test_team(self):
+        result = self.stats.team('EDM')
+        self.assertEqual(result[0].name, "Semenko")
+        self.assertEqual(result[2].name, "Gretzky")
+
+    def test_top(self):
+        result = self.stats.top(3)
+        self.assertEqual(result[0].name, "Gretzky")
+        self.assertEqual(result[2].name, "Yzerman")
