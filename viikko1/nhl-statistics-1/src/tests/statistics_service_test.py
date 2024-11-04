@@ -36,3 +36,19 @@ class TestStatisticsService(unittest.TestCase):
         result = self.stats.top(3)
         self.assertEqual(result[0].name, "Gretzky")
         self.assertEqual(result[2].name, "Yzerman")
+
+    def test_top_points(self):
+        result = self.stats.top(3, SortBy.POINTS)
+        self.assertEqual(result[0].name, "Gretzky")
+        self.assertEqual(result[2].name, "Yzerman")
+
+    def test_top_goals(self):
+        result = self.stats.top(3, SortBy.GOALS)
+        self.assertEqual(result[0].name, "Lemieux")
+        self.assertEqual(result[2].name, "Kurri")
+
+    def test_top_assists(self):
+        result = self.stats.top(3, SortBy.ASSISTS)
+        self.assertEqual(result[0], "Gretzky")
+        self.assertEqual(result[2], "Lemieux")
+
