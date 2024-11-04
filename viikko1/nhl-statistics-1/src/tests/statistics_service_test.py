@@ -20,8 +20,8 @@ class TestStatisticsService(unittest.TestCase):
         )
 
     def test_search(self):
-        result = self.stats.search('Ovechkin')
-        self.assertEqual(result.name, 'Ovechkin')
+        result = self.stats.search('Gretzky')
+        self.assertEqual(result.name, 'Gretzky')
 
     def test_searchnone(self):
         result = self.stats.search('SpiderMan')
