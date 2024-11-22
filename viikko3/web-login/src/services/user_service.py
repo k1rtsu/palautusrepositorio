@@ -40,7 +40,19 @@ class UserService:
         if not username or not password:
             raise UserInputError("Username and password are required")
 
-        # toteuta loput tarkastukset tänne ja nosta virhe virhetilanteissa
-
+        if len(username) <3:
+            raise UserInputError("Username must be atleast 3 characters long")
+    
+        if not username.isalpha():
+            raise UserInputError("Username must consists only of the characters a-z")
+        
+        if password.isalpha():
+            raise UserInputError("Password must contain at least one number or special character")
+        
+        if password != password_confirmation:
+            raise UserInputError("Passwords don't match")
+        
+        if len(password) <8:
+            raise UserInputError("Password must be atleast 8 characters long")
 
 user_service = UserService()
