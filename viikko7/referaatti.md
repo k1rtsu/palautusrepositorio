@@ -1,0 +1,7 @@
+Luin Esa Kortelaisen kirjoittaman kandidaattitutkielman ”Jatkuva eksperimentointi ohjelmistokehityksen tukena”. Kortelaisen tutkielma alkaa Lean-ajattelun esittelyllä, jossa käydään läpi Leanin syntytarina sekä sen keskeiset periaatteet. Samassa yhteydessä käsitellään Just-In-Time -tuotantoperiaatetta ja Kanban-korttien käyttöä tuotannonhallinnassa.
+
+Tämän jälkeen tutkielmassa siirrytään tarkastelemaan Lean-ajattelun soveltamista ohjelmistokehitykseen ja esitellään Lean-filosofian tärkeimpiä periaatteita. Sivuilla 6–9 Kortelainen käsittelee Lean-filosofian vaikutusta erityisesti start-up-yrityksissä ja vertailee niiden toimintaa suuryrityksiin. Hän tuo esiin kiinnostavia näkökulmia, jotka korostavat start-upien ketteryyttä ja eroavaisuuksia suurten organisaatioiden rakenteisiin nähden.
+
+Kappaleessa 3 Kortelainen perustelee innovaatioiden ja eksperimentoinnin tärkeyttä tutkimustulosten avulla. Neljäs kappale puolestaan käsittelee liiketoiminnan sisäisiä innovaatioita sekä muutosten hallintaa.
+
+Kortelaisen työ oli selkeästi kirjoitettu ja sisällöltään hyvin jäsennelty. Se tarjosi mielenkiintoisia näkökulmia ja antoi hyvän kokonaiskuvan jatkuvan eksperimentoinnin merkityksestä ohjelmistokehityksen tukena.
